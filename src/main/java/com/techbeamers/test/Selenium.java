@@ -3,7 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 public class Selenium {
 public static void main(String[] args) {
-System.setProperty("webdriver.chrome.driver","/opt/fawad/geckodriver"); // <– Change this path
+System.setProperty("webdriver.firefox.driver","/opt/fawad/geckodriver"); // <– Change this path
 WebDriver driver = new FirefoxDriver();
 String baseUrl = "https://experitest.com/free-trial/";
 String expectedTitle = "Free trial";
