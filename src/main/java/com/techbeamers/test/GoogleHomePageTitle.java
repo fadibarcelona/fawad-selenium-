@@ -24,7 +24,7 @@ public class GoogleHomePageTitle {
 	public void verifyGooglePageTittle() {
 		driver.navigate().to(URL);
 		String getTitle = driver.getTitle();
-		Assert.assertEquals(getTitle, "Google");
+		Assert.assertEquals(getTitle, "Fawad");
 	}
 	
 	@AfterClass
